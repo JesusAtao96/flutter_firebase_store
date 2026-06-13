@@ -2,7 +2,9 @@
 
 Flutter app (Android / iOS / Web) backed by Firebase Auth + Cloud Firestore.
 
-![Mi Tienda - Home](./screenshot.png)
+<p align="left">
+  <img src="./screenshot.png" alt="Mi Tienda - Home" width="320"/>
+</p>
 
 ## Getting Started
 
