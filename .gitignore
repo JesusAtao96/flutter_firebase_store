@@ -1,0 +1,107 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+.atl/
+opencode.json
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+# Auto-generated plugin registrant — recreated on `flutter pub get`
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Build artifacts (keep the repo light — do NOT upload binaries)
+**/*.apk
+**/*.aab
+**/*.ipa
+**/*.app
+**/*.dSYM.zip
+**/*.dSYM
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+# Android Gradle generated files
+**/android/.gradle
+**/android/captures/
+**/android/**/GeneratedPluginRegistrant.java
+# NOTE: `gradlew`, `gradlew.bat` and `gradle-wrapper.jar` are NOT
+# ignored on purpose — they are bootstrap files that other devs need
+# to build the Android project after `git clone`. The default
+# android/.gitignore from the Flutter template incorrectly ignores
+# them, so we un-ignore them there (see android/.gitignore).
+
+# ============================================================
+# Firebase secrets — generated locally, never commit
+# ============================================================
+# Android: config downloaded from Firebase Console
+/android/app/google-services.json
+# iOS: config downloaded from Firebase Console
+/ios/Runner/GoogleService-Info.plist
+# macOS: config downloaded from Firebase Console
+/macos/Runner/GoogleService-Info.plist
+# FlutterFire generated Dart options (apiKey, appId, etc.)
+/lib/firebase_options.dart
+# Web / Windows: same generated file when those platforms are added
+/web/firebase-config.js
+/windows/firebase_config.dart
+# Catch-all for any platform-specific Firebase config
+**/google-services.json
+**/GoogleService-Info.plist
+**/firebase_options.dart
+# Local Firebase service account / emulator secrets
+**/firebase-service-account.json
+**/*-firebase-adminsdk-*.json
+.firebase/
+firestore-debug.log
+firebase-debug.log
+ui-debug.log
+
+# ============================================================
+# Per-machine / signing config — never commit
+# ============================================================
+# Android: paths absolutos al SDK de cada dev
+**/local.properties
+# Android: signing config for release builds
+**/key.properties
+# Android: signing keys (defense in depth — android/.gitignore already covers them)
+**/*.keystore
+**/*.jks
+# iOS: pods lock file is fine to commit, but symlinks are not
+**/.symlinks/
+# Web: generated service worker / firebase hosting config when added
+/web/firebase-messaging-sw.js
